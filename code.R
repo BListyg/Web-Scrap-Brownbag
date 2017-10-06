@@ -1,6 +1,6 @@
 #Install and load “rvest” package
 
-Install.packages(“rvest”)
+install.packages(“rvest”)
 library(rvest)
 
 riasec.scrape = function(x,y) {read_html(x) %>% 
