@@ -1,5 +1,9 @@
-# webscrapbb
+# IO Psychology Web Scraping Material
 
-These are slides and data from a brown bag talk I gave to the University of South Florida I/O Psychology Department in November 2017 on the benefits and potential drawbacks of collecting data from the internet. 
+This repo contains presentation slides and code from a brown bag talk I gave to the University of South Florida IO Psychology Department in November 2017. The purpose of my talk was to discuss the benefits and potential pitfalls of using automated Internet data collection techniques ("web scraping").
 
-I additionally included code that scraped RIASEC and Income data from O*NET and ultimately replicated the findings from Huang and Pearce (2013).
+The sample code file scrapes the RIASEC scores for a single occupation's web page from the Occupational Information Network's (ONET) website.
+
+The final code collects RIASEC values and income data from all available occupations on the ONET website (between 800-900 occupations).
+
+An unintended benefit of this presentation was accidentally replicating the findings from Huang and Pearce (2013).
